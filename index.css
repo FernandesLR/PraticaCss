@@ -18,7 +18,7 @@ body{
 }
 
 section{
-    width: 25%;
+    width: 24vw;
     height: 80%;
     background-color: #1f1f1f;
     align-items: center;
@@ -57,8 +57,8 @@ section{
 }
 
 .links button{
-    width: 400px;
-    height: 55px;
+    width: 20vw;
+    height: 6vh;
     color: #ebebeb;
     font-weight: bolder;
     font-size: 17px;
@@ -66,4 +66,21 @@ section{
     border-style: none;
     border-radius: 10px;
     cursor: pointer;
+}
+
+
+@media (max-width: 1200px){
+    section{
+        min-width: 300px;
+    }
+    .content img{
+        width: 80px;
+    }
+    .content h2{
+        font-size: 15px;
+    }
+    .content p{
+        font-size: 12px;
+    }
+
 }
